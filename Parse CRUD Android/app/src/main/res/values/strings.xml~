@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Parse CRUD Android</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    //ASSIGNNIG PARSE APP Id
+    <string name="parse_app_id">6qt95jDQG8PPfwgfNszoydqPzwaWin2EkovyMabJ</string>
+    <string name="parse_client_key">KH3sHoLuFkFX2xBPtGsnONlXQoLyNFo8YtQF688l</string>
+    <string name="title_activity_parse_">parse_Activity</string>
+</resources>

@@ -1,0 +1,64 @@
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edt_Add"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_marginRight="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btn_Insert"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Add"
+        android:layout_above="@+id/my_recycler_view"
+        android:layout_alignParentEnd="true" />
+
+    <!-- A RecyclerView with some commonly used attributes -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:scrollbars="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_Add"
+        android:layout_alignStart="@+id/edt_Add" />
+
+
+    <!-- -<ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginRight="12dp"
+        android:elevation="2dp"
+        android:src="@android:drawable/ic_input_add" />-->
+
+    <!--<android.support.v7.widget.CardView
+         xmlns:card_view="http://schemas.android.com/apk/res-auto"
+         android:id="@+id/card_view"
+         android:layout_gravity="center"
+         android:layout_width="200dp"
+         android:layout_height="200dp"
+         card_view:cardCornerRadius="4dp">
+         </android.support.v7.widget.CardView>-->
+</RelativeLayout>
+
+
+
+
+
+
+
